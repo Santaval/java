@@ -8,6 +8,9 @@ public class Main {
         Carro carro2 = new Carro("Mercedes", "rojo", 2015, "RT43", 50);
         Carro carro3 = new Carro("Mitsubichi", 200.0);
         Carro carro4 = new Carro();
+
+        Persona persona1 = new Persona("Juan", 68, 20, 168, "Lopez");
+        System.out.println(persona1.nombre);
     }
 
 }
