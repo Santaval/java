@@ -10,7 +10,16 @@ public class Main {
         Carro carro4 = new Carro();
 
         Persona persona1 = new Persona("Juan", 68, 20, 168, "Lopez");
-        System.out.println(persona1.nombre);
+        
+
+        String nombres[] = {"Juan", "Pedro", "Maria", "Luis", "Ana"};
+        int edades[] = {20, 30, 40, 50, 60};
+        int pesos[] = {70, 80, 90, 100, 110};
+        int alturas[] = {160, 170, 180, 190, 200};
+        String apellidos[] = {"Lopez", "Perez", "Gomez", "Gonzalez", "Rodriguez"};
+
+
+        // crea un objeto persona con los datos de los arreglos y guadarlos en un arreglo de Personas
     }
 
 }
