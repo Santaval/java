@@ -1,4 +1,4 @@
-package holaMundo;
+package clases;
 
 public class Carro {
     // atributos
