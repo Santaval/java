@@ -1,4 +1,5 @@
 package clases;
+import java.util.ArrayList;
 
 public class Main {
 
@@ -17,6 +18,12 @@ public class Main {
 
 
         // crea un objeto persona con los datos de los arreglos y guadarlos en un arreglo de Personas
+        ArrayList<String> Personas = new ArrayList<>(); 
+        for(int i = 0; i < nombres.length; i = i+1){
+            String persona = nombres[i] + " " + apellidos[i] + ", edad: " + edades[i] + ", peso: " +  pesos[i] + ", altura: " + alturas[i];
+            Personas.add(persona);
+        }
+        
     }
 
 }
